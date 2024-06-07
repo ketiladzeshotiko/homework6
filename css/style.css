@@ -1,0 +1,9 @@
+.flex_container{
+    width: min(100%, 1440px);
+    margin: auto;
+}
+header{
+    height: 160px;
+    background-color: #758BFD;
+}
+
