@@ -1,9 +1,120 @@
-.flex_container{
+.flex_container {
     width: min(100%, 1440px);
     margin: auto;
 }
-header{
-    height: 160px;
+
+/* header */
+header {
     background-color: #758BFD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 52px 98px;
 }
 
+.header_li {
+    display: inline-flex;
+    font-size: 24px;
+}
+
+.active {
+    color: #133B3A;
+
+}
+
+.inactive {
+    color: #DDEAF8;
+}
+
+.middle_li {
+    margin-inline: 47px;
+}
+
+.fa-solid {
+    color: #FFFFFF;
+    width: 20px;
+    height: 20px;
+}
+
+.header_div {
+    width: 222px;
+    height: 56px;
+    border: 3px solid #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 15px;
+    padding-top: 12px;
+    font-size: 23px;
+}
+
+/* section */
+section {
+    width: calc(1244 / 1440 * 100%);
+    margin: auto;
+    margin-block: 94px 136px;
+    /* background-color: #27187F; */
+}
+
+h2 {
+    font-size: 32px;
+    color: #27187F;
+    margin-left: 98px;
+    margin-top: 94px;
+    font-weight: 700;
+}
+
+.section_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 51px 22px;
+}
+article {
+    background-color: #DDEAF8;
+    padding-inline: 30px;
+    padding-top: 33px;
+    border-radius: 10px;
+}
+
+p {
+    margin-block: 33px;
+    font-size: 20px;
+    color: #133B3A;
+}
+
+/* ვერ ავაწყვე სექცია (( */
+/* footer */
+footer {
+    background-color: #758BFD;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 98px;
+    padding-top: 75px;
+    align-items: center;
+    padding-bottom: 105px;
+}
+
+h3 {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.footer_div {
+    margin-left: 709px;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    display: block;
+}
+
+.fa-brands {
+    color: white;
+    margin-top: 20px;
+    vertical-align: middle;
+}
+
+.linkedin {
+    margin-inline: 24px;
+}
